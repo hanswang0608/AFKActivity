@@ -36,7 +36,7 @@ def do_work():
     kb = KBController()
     m = MController()
     while True:
-        longDelay = random.uniform(5, 10)
+        longDelay = random.uniform(30, 60)
         numMouseActivities = random.randrange(10, 20)
         numKeyboardActivities = random.randrange(10, 30)
         print(f'doing {numMouseActivities} mouse actions')
